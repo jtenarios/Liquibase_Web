@@ -1,17 +1,23 @@
 {
-  "name": "Liquibase_Web",
+  "name": "Liquibase_Web_JTR",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web interface to deploy liquibase script",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtenarios/Liquibase_Web.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtenarios/Liquibase_Web/issues"
+  },
+  "homepage": "https://github.com/jtenarios/Liquibase_Web#readme",
   "dependencies": {
-    "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "nodemon": "^3.0.3"
+    "express": "^4.18.2"
   }
 }
